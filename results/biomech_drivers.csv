@@ -1,0 +1,31 @@
+outcome,outcome_label,mechanic,label,effect_per_sd,ci_lo,ci_hi,p_perm,q_bh
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),max_torso_rotational_velo,Peak trunk rotation velocity,0.249351846225541,0.09301265389026513,0.4184390754895465,0.004799040191961607,0.021424286571257174
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),lead_knee_extension_from_fp_to_br,Lead knee extension FP to BR,0.20576412041340003,0.020833845321018955,0.3953734412697593,0.015796840631873626,0.055988802239552084
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),max_shoulder_external_rotation,Layback (max shoulder ER),-0.18865965605033938,-0.35828462317456505,-0.0157574311313703,0.033393321335732855,0.07752295694707212
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),max_rotation_hip_shoulder_separation,Peak hip-shoulder separation,0.19228412462598443,0.020731585296542777,0.37445231696955983,0.027194561087782444,0.07752295694707212
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),shoulder_horizontal_abduction_fp,Shoulder horizontal abduction at FP,0.1681905181689579,-0.014161485610831274,0.347480168635481,0.05558888222355529,0.11911903333618991
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),rotation_hip_shoulder_separation_fp,Hip-shoulder separation at FP,0.15340364742988244,-0.04101539841955823,0.3452813303101667,0.08178364327134573,0.155263065034052
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),torso_lateral_tilt_br,Trunk lateral tilt at BR,0.13833856910195655,-0.04409463259848001,0.31934556723536217,0.1239752049590082,0.206625341598347
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),shoulder_abduction_fp,Shoulder abduction at FP,0.11856358650792637,-0.042020300373903544,0.2718847929909046,0.1855628874225155,0.27834433113377327
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),elbow_flexion_fp,Elbow flexion at FP,0.10150665633838801,-0.0694922211130965,0.27147973301654993,0.259748050389922,0.35420188689534815
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),torso_anterior_tilt_br,Trunk forward tilt at BR,0.07764532575503824,-0.0872822748218909,0.24402100132794327,0.3817236552689462,0.4816536692661468
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),max_cog_velo_x,Peak centre-of-mass velocity to home,0.07152564080577196,-0.08800156538214793,0.2260710078046249,0.42491501699660067,0.49028655807300076
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),timing_peak_torso_to_peak_pelvis_rot_velo,Pelvis-to-trunk peak timing,0.07312013248867906,-0.0403062273371139,0.2000060239075486,0.4091181763647271,0.49028655807300076
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),stride_length,Stride length,0.04419887274421549,-0.12101859696518978,0.20910730027716,0.6264747050589882,0.6712228982774873
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),max_pelvis_rotational_velo,Peak pelvis rotation velocity,0.028615961171954075,-0.12027470363538217,0.17867560205074698,0.7506498700259948,0.7506498700259948
+elbow_varus_moment_bwht,Elbow varus moment (%BW*Ht),arm_slot,Arm slot,-0.028813419069195125,-0.19120511612062868,0.1368343260956291,0.745250949810038,0.7506498700259948
+pitch_speed_mph,Pitch speed (mph),max_shoulder_external_rotation,Layback (max shoulder ER),1.9178121210466708,0.9604483869186756,2.943961768141201,0.0001999600079984003,0.001999600079984003
+pitch_speed_mph,Pitch speed (mph),max_torso_rotational_velo,Peak trunk rotation velocity,2.0003825840563483,1.0332296829246939,2.9688635595739346,0.0001999600079984003,0.001999600079984003
+pitch_speed_mph,Pitch speed (mph),shoulder_horizontal_abduction_fp,Shoulder horizontal abduction at FP,1.9500974241833402,0.9227115931625263,2.934858044820658,0.0001999600079984003,0.001999600079984003
+pitch_speed_mph,Pitch speed (mph),rotation_hip_shoulder_separation_fp,Hip-shoulder separation at FP,1.455586860096484,0.5433194555339641,2.363550495719509,0.0005998800239952009,0.004499100179964007
+pitch_speed_mph,Pitch speed (mph),arm_slot,Arm slot,-1.4165468908517134,-2.4671005123698233,-0.33251202794804413,0.001999600079984003,0.01199760047990402
+pitch_speed_mph,Pitch speed (mph),max_rotation_hip_shoulder_separation,Peak hip-shoulder separation,1.2970869340560225,0.36554763053919076,2.188896998570399,0.004999000199960008,0.021424286571257174
+pitch_speed_mph,Pitch speed (mph),lead_knee_extension_from_fp_to_br,Lead knee extension FP to BR,1.0863571697306165,-0.00874525523160251,2.0428705838939334,0.016796640671865627,0.055988802239552084
+pitch_speed_mph,Pitch speed (mph),stride_length,Stride length,0.986070845801631,0.14159135082460342,1.8668799440939798,0.03139372125574885,0.07752295694707212
+pitch_speed_mph,Pitch speed (mph),max_cog_velo_x,Peak centre-of-mass velocity to home,0.9743958433268844,0.05515074475075779,1.8484940792500195,0.033593281343731254,0.07752295694707212
+pitch_speed_mph,Pitch speed (mph),torso_anterior_tilt_br,Trunk forward tilt at BR,0.7906646351997767,-0.32894628476564924,1.8612982551467836,0.08598280343931214,0.155263065034052
+pitch_speed_mph,Pitch speed (mph),torso_lateral_tilt_br,Trunk lateral tilt at BR,-0.8002105848242622,-1.567596685405228,-0.022606222423544015,0.08798240351929613,0.155263065034052
+pitch_speed_mph,Pitch speed (mph),elbow_flexion_fp,Elbow flexion at FP,-0.619807656470003,-1.8049120350326497,0.5366183569403769,0.1827634473105379,0.27834433113377327
+pitch_speed_mph,Pitch speed (mph),shoulder_abduction_fp,Shoulder abduction at FP,-0.5405366021431076,-1.5931162776955077,0.3721990220166369,0.2485502899420116,0.35420188689534815
+pitch_speed_mph,Pitch speed (mph),timing_peak_torso_to_peak_pelvis_rot_velo,Pelvis-to-trunk peak timing,0.3959918116532153,-0.37553154868458655,1.1893859805201326,0.3853229354129174,0.4816536692661468
+pitch_speed_mph,Pitch speed (mph),max_pelvis_rotational_velo,Peak pelvis rotation velocity,0.3578357547868734,-0.6643760359865895,1.3514340666127502,0.4439112177564487,0.49323468639605417

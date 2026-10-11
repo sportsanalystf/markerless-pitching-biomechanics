@@ -1,0 +1,13 @@
+# data is CC BY-NC-SA and downloaded by scripts/01_get_data.sh
+data/
+*.zip
+# local outputs
+reports/
+results/*.log
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+.DS_Store

@@ -1,0 +1,35 @@
+{
+  "note": "seconds added to the peak-wrist-speed frame to estimate ball release; median over OBP trials (GroupKFold-validated), by view and frame rate",
+  "by_view_fps": {
+    "catcher": {
+      "360": -0.0306,
+      "240": -0.0306,
+      "120": -0.0333,
+      "60": -0.0333
+    },
+    "glove_side": {
+      "360": 0.0111,
+      "240": 0.0111,
+      "120": 0.0111,
+      "60": 0.0084
+    },
+    "center_field": {
+      "360": -0.0278,
+      "240": -0.0278,
+      "120": -0.0278,
+      "60": -0.0306
+    },
+    "arm_side": {
+      "360": 0.0139,
+      "240": 0.0139,
+      "120": 0.0139,
+      "60": 0.0138
+    }
+  },
+  "br_offset_s": {
+    "catcher": -0.0333,
+    "glove_side": 0.0111,
+    "center_field": -0.0278,
+    "arm_side": 0.0139
+  }
+}

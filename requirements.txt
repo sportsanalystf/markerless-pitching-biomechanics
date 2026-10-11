@@ -1,0 +1,10 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+statsmodels>=0.14
+matplotlib>=3.7
+torch>=2.1            # only for scripts/04_sequence_leakage.py
+mediapipe>=0.10.14    # only for video input
+opencv-python>=4.8    # only for video input
+pytest>=7

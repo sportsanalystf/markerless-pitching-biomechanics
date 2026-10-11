@@ -1,0 +1,76 @@
+{
+  "n_pitchers": 100,
+  "n_pitches": 411,
+  "velocity_mph_mean_sd": [
+    84.7,
+    4.8
+  ],
+  "elbow_load_bwht_mean_sd": [
+    6.79,
+    0.89
+  ],
+  "r_velocity_vs_normalised_elbow_load": [
+    0.32,
+    0.17,
+    0.46
+  ],
+  "r_velocity_vs_absolute_elbow_load_Nm": 0.47,
+  "significant_after_BH": [
+    {
+      "outcome": "elbow_varus_moment_bwht",
+      "label": "Peak trunk rotation velocity",
+      "effect_per_sd": 0.249,
+      "ci_lo": 0.093,
+      "ci_hi": 0.418,
+      "q_bh": 0.021
+    },
+    {
+      "outcome": "pitch_speed_mph",
+      "label": "Layback (max shoulder ER)",
+      "effect_per_sd": 1.918,
+      "ci_lo": 0.96,
+      "ci_hi": 2.944,
+      "q_bh": 0.002
+    },
+    {
+      "outcome": "pitch_speed_mph",
+      "label": "Peak trunk rotation velocity",
+      "effect_per_sd": 2.0,
+      "ci_lo": 1.033,
+      "ci_hi": 2.969,
+      "q_bh": 0.002
+    },
+    {
+      "outcome": "pitch_speed_mph",
+      "label": "Shoulder horizontal abduction at FP",
+      "effect_per_sd": 1.95,
+      "ci_lo": 0.923,
+      "ci_hi": 2.935,
+      "q_bh": 0.002
+    },
+    {
+      "outcome": "pitch_speed_mph",
+      "label": "Hip-shoulder separation at FP",
+      "effect_per_sd": 1.456,
+      "ci_lo": 0.543,
+      "ci_hi": 2.364,
+      "q_bh": 0.004
+    },
+    {
+      "outcome": "pitch_speed_mph",
+      "label": "Arm slot",
+      "effect_per_sd": -1.417,
+      "ci_lo": -2.467,
+      "ci_hi": -0.333,
+      "q_bh": 0.012
+    },
+    {
+      "outcome": "pitch_speed_mph",
+      "label": "Peak hip-shoulder separation",
+      "effect_per_sd": 1.297,
+      "ci_lo": 0.366,
+      "ci_hi": 2.189,
+      "q_bh": 0.021
+    }
+  ]
+}

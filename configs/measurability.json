@@ -1,0 +1,214 @@
+{
+  "basis": "OBP marker truth, 393 trials / 98 pitchers, 120 fps, 4 px keypoint noise, detected events",
+  "rule": "A: RMSE<=5 and r>=0.80; B: RMSE<=10 and r>=0.60; else C (not reported)",
+  "views": {
+    "catcher": {
+      "elbow_flexion_fp": {
+        "tier": "C",
+        "rmse": 50.59,
+        "r": 0.084
+      },
+      "elbow_flexion_br": {
+        "tier": "C",
+        "rmse": 15.88,
+        "r": 0.332
+      },
+      "lead_knee_flexion_fp": {
+        "tier": "C",
+        "rmse": 27.64,
+        "r": 0.556
+      },
+      "lead_knee_flexion_br": {
+        "tier": "C",
+        "rmse": 32.58,
+        "r": 0.387
+      },
+      "trunk_forward_tilt_br": {
+        "tier": "C",
+        "rmse": 11.65,
+        "r": 0.384
+      },
+      "trunk_lateral_tilt_br": {
+        "tier": "A",
+        "rmse": 1.53,
+        "r": 0.99
+      },
+      "arm_slot_br": {
+        "tier": "B",
+        "rmse": 7.65,
+        "r": 0.901
+      },
+      "hip_shoulder_sep_fp": {
+        "tier": "C",
+        "rmse": 32.46,
+        "r": -0.13
+      },
+      "stride_length_fp": {
+        "tier": "C",
+        "rmse": 51.22,
+        "r": 0.258
+      },
+      "lead_knee_extension_fp_br": {
+        "tier": "C",
+        "rmse": 19.89,
+        "r": 0.206
+      }
+    },
+    "glove_side": {
+      "elbow_flexion_fp": {
+        "tier": "C",
+        "rmse": 26.77,
+        "r": 0.49
+      },
+      "elbow_flexion_br": {
+        "tier": "C",
+        "rmse": 16.94,
+        "r": 0.439
+      },
+      "lead_knee_flexion_fp": {
+        "tier": "C",
+        "rmse": 9.75,
+        "r": 0.514
+      },
+      "lead_knee_flexion_br": {
+        "tier": "A",
+        "rmse": 2.94,
+        "r": 0.978
+      },
+      "trunk_forward_tilt_br": {
+        "tier": "A",
+        "rmse": 1.96,
+        "r": 0.982
+      },
+      "trunk_lateral_tilt_br": {
+        "tier": "C",
+        "rmse": 11.83,
+        "r": 0.454
+      },
+      "arm_slot_br": {
+        "tier": "C",
+        "rmse": 20.76,
+        "r": 0.132
+      },
+      "hip_shoulder_sep_fp": {
+        "tier": "C",
+        "rmse": 37.52,
+        "r": -0.095
+      },
+      "stride_length_fp": {
+        "tier": "B",
+        "rmse": 3.38,
+        "r": 0.785
+      },
+      "lead_knee_extension_fp_br": {
+        "tier": "C",
+        "rmse": 10.35,
+        "r": 0.744
+      }
+    },
+    "center_field": {
+      "elbow_flexion_fp": {
+        "tier": "C",
+        "rmse": 50.87,
+        "r": 0.011
+      },
+      "elbow_flexion_br": {
+        "tier": "C",
+        "rmse": 22.44,
+        "r": 0.206
+      },
+      "lead_knee_flexion_fp": {
+        "tier": "C",
+        "rmse": 28.94,
+        "r": 0.409
+      },
+      "lead_knee_flexion_br": {
+        "tier": "C",
+        "rmse": 30.09,
+        "r": 0.419
+      },
+      "trunk_forward_tilt_br": {
+        "tier": "C",
+        "rmse": 57.54,
+        "r": -0.373
+      },
+      "trunk_lateral_tilt_br": {
+        "tier": "A",
+        "rmse": 1.45,
+        "r": 0.99
+      },
+      "arm_slot_br": {
+        "tier": "C",
+        "rmse": 10.01,
+        "r": 0.853
+      },
+      "hip_shoulder_sep_fp": {
+        "tier": "C",
+        "rmse": 34.08,
+        "r": 0.007
+      },
+      "stride_length_fp": {
+        "tier": "C",
+        "rmse": 56.59,
+        "r": 0.151
+      },
+      "lead_knee_extension_fp_br": {
+        "tier": "C",
+        "rmse": 24.27,
+        "r": 0.214
+      }
+    },
+    "arm_side": {
+      "elbow_flexion_fp": {
+        "tier": "C",
+        "rmse": 41.84,
+        "r": 0.334
+      },
+      "elbow_flexion_br": {
+        "tier": "C",
+        "rmse": 17.74,
+        "r": 0.319
+      },
+      "lead_knee_flexion_fp": {
+        "tier": "C",
+        "rmse": 19.18,
+        "r": 0.122
+      },
+      "lead_knee_flexion_br": {
+        "tier": "A",
+        "rmse": 3.34,
+        "r": 0.981
+      },
+      "trunk_forward_tilt_br": {
+        "tier": "A",
+        "rmse": 1.41,
+        "r": 0.987
+      },
+      "trunk_lateral_tilt_br": {
+        "tier": "C",
+        "rmse": 11.68,
+        "r": 0.397
+      },
+      "arm_slot_br": {
+        "tier": "C",
+        "rmse": 17.18,
+        "r": 0.345
+      },
+      "hip_shoulder_sep_fp": {
+        "tier": "C",
+        "rmse": 42.62,
+        "r": 0.034
+      },
+      "stride_length_fp": {
+        "tier": "B",
+        "rmse": 5.2,
+        "r": 0.789
+      },
+      "lead_knee_extension_fp_br": {
+        "tier": "C",
+        "rmse": 18.36,
+        "r": 0.557
+      }
+    }
+  }
+}

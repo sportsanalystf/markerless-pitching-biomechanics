@@ -1,0 +1,129 @@
+{
+  "fps": 120.0,
+  "view": "arm_side",
+  "style": "overhand",
+  "events_s": {
+    "pkh": 0.6167,
+    "fp": 1.2,
+    "br": 1.3417
+  },
+  "events_idx": {
+    "pkh": 74,
+    "fp": 144,
+    "br": 161
+  },
+  "phases_s": {
+    "wind_up": [
+      0.0,
+      0.6166666666666667
+    ],
+    "stride": [
+      0.6166666666666667,
+      1.2
+    ],
+    "arm_action": [
+      1.2,
+      1.3416666666666666
+    ],
+    "follow_through": [
+      1.3416666666666666,
+      1.525
+    ]
+  },
+  "metrics": {
+    "elbow_flexion_fp": {
+      "label": "Elbow flexion at foot plant",
+      "unit": "deg",
+      "tier": "C",
+      "validation_rmse": 41.84,
+      "validation_r": 0.334,
+      "value": null,
+      "withheld": "not measurable from the arm side view (RMSE 41.84, r 0.334 vs markers)"
+    },
+    "elbow_flexion_br": {
+      "label": "Elbow flexion at release",
+      "unit": "deg",
+      "tier": "C",
+      "validation_rmse": 17.74,
+      "validation_r": 0.319,
+      "value": null,
+      "withheld": "not measurable from the arm side view (RMSE 17.74, r 0.319 vs markers)"
+    },
+    "lead_knee_flexion_fp": {
+      "label": "Lead knee flexion at foot plant",
+      "unit": "deg",
+      "tier": "C",
+      "validation_rmse": 19.18,
+      "validation_r": 0.122,
+      "value": null,
+      "withheld": "not measurable from the arm side view (RMSE 19.18, r 0.122 vs markers)"
+    },
+    "lead_knee_flexion_br": {
+      "label": "Lead knee flexion at release",
+      "unit": "deg",
+      "tier": "A",
+      "validation_rmse": 3.34,
+      "validation_r": 0.981,
+      "value": 55.8,
+      "percentile": 86,
+      "reference": "OBP baseball, college"
+    },
+    "trunk_forward_tilt_br": {
+      "label": "Trunk forward tilt at release",
+      "unit": "deg",
+      "tier": "A",
+      "validation_rmse": 1.41,
+      "validation_r": 0.987,
+      "value": 32.0,
+      "percentile": 53,
+      "reference": "OBP baseball, college"
+    },
+    "trunk_lateral_tilt_br": {
+      "label": "Trunk lateral tilt at release",
+      "unit": "deg",
+      "tier": "C",
+      "validation_rmse": 11.68,
+      "validation_r": 0.397,
+      "value": null,
+      "withheld": "not measurable from the arm side view (RMSE 11.68, r 0.397 vs markers)"
+    },
+    "arm_slot_br": {
+      "label": "Arm slot at release",
+      "unit": "deg",
+      "tier": "C",
+      "validation_rmse": 17.18,
+      "validation_r": 0.345,
+      "value": null,
+      "withheld": "not measurable from the arm side view (RMSE 17.18, r 0.345 vs markers)"
+    },
+    "hip_shoulder_sep_fp": {
+      "label": "Hip-shoulder separation at foot plant",
+      "unit": "deg",
+      "tier": "C",
+      "validation_rmse": 42.62,
+      "validation_r": 0.034,
+      "value": null,
+      "withheld": "not measurable from the arm side view (RMSE 42.62, r 0.034 vs markers)"
+    },
+    "stride_length_fp": {
+      "label": "Stride length at foot plant",
+      "unit": "% height",
+      "tier": "B",
+      "validation_rmse": 5.2,
+      "validation_r": 0.789,
+      "value": 77.8,
+      "percentile": 48,
+      "reference": "OBP baseball, college"
+    },
+    "lead_knee_extension_fp_br": {
+      "label": "Lead knee extension, foot plant to release",
+      "unit": "deg",
+      "tier": "C",
+      "validation_rmse": 18.36,
+      "validation_r": 0.557,
+      "value": null,
+      "withheld": "not measurable from the arm side view (RMSE 18.36, r 0.557 vs markers)"
+    }
+  },
+  "notes": []
+}

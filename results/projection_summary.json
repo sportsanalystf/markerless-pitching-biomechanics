@@ -1,0 +1,134 @@
+{
+  "n_trials": 393,
+  "n_pitchers": 98,
+  "noise_px": 4.0,
+  "fps": 120,
+  "arm_side_120fps": {
+    "elbow_flexion_fp": {
+      "rmse": 41.84,
+      "rmse_lo": 36.34,
+      "rmse_hi": 47.34,
+      "bias": -24.14,
+      "r": 0.33
+    },
+    "elbow_flexion_br": {
+      "rmse": 17.74,
+      "rmse_lo": 16.43,
+      "rmse_hi": 19.08,
+      "bias": -13.85,
+      "r": 0.32
+    },
+    "lead_knee_flexion_fp": {
+      "rmse": 19.18,
+      "rmse_lo": 15.35,
+      "rmse_hi": 22.74,
+      "bias": -11.07,
+      "r": 0.12
+    },
+    "lead_knee_flexion_br": {
+      "rmse": 3.34,
+      "rmse_lo": 2.87,
+      "rmse_hi": 3.82,
+      "bias": -2.0,
+      "r": 0.98
+    },
+    "trunk_forward_tilt_br": {
+      "rmse": 1.41,
+      "rmse_lo": 1.23,
+      "rmse_hi": 1.61,
+      "bias": 0.06,
+      "r": 0.99
+    },
+    "trunk_lateral_tilt_br": {
+      "rmse": 11.68,
+      "rmse_lo": 9.28,
+      "rmse_hi": 14.12,
+      "bias": 6.0,
+      "r": 0.4
+    },
+    "arm_slot_br": {
+      "rmse": 17.18,
+      "rmse_lo": 15.11,
+      "rmse_hi": 19.29,
+      "bias": -9.73,
+      "r": 0.34
+    },
+    "hip_shoulder_sep_fp": {
+      "rmse": 42.62,
+      "rmse_lo": 40.3,
+      "rmse_hi": 44.77,
+      "bias": -40.65,
+      "r": 0.03
+    },
+    "stride_length_fp": {
+      "rmse": 5.2,
+      "rmse_lo": 4.62,
+      "rmse_hi": 5.73,
+      "bias": 3.94,
+      "r": 0.79
+    },
+    "lead_knee_extension_fp_br": {
+      "rmse": 18.36,
+      "rmse_lo": 14.79,
+      "rmse_hi": 21.84,
+      "bias": -9.07,
+      "r": 0.56
+    }
+  },
+  "arm_side_event_mae_ms": {
+    "br": 4.0,
+    "fp": 30.4,
+    "pkh": 8.2
+  },
+  "tiers": {
+    "catcher": {
+      "elbow_flexion_fp": "C",
+      "elbow_flexion_br": "C",
+      "lead_knee_flexion_fp": "C",
+      "lead_knee_flexion_br": "C",
+      "trunk_forward_tilt_br": "C",
+      "trunk_lateral_tilt_br": "A",
+      "arm_slot_br": "B",
+      "hip_shoulder_sep_fp": "C",
+      "stride_length_fp": "C",
+      "lead_knee_extension_fp_br": "C"
+    },
+    "glove_side": {
+      "elbow_flexion_fp": "C",
+      "elbow_flexion_br": "C",
+      "lead_knee_flexion_fp": "C",
+      "lead_knee_flexion_br": "A",
+      "trunk_forward_tilt_br": "A",
+      "trunk_lateral_tilt_br": "C",
+      "arm_slot_br": "C",
+      "hip_shoulder_sep_fp": "C",
+      "stride_length_fp": "B",
+      "lead_knee_extension_fp_br": "C"
+    },
+    "center_field": {
+      "elbow_flexion_fp": "C",
+      "elbow_flexion_br": "C",
+      "lead_knee_flexion_fp": "C",
+      "lead_knee_flexion_br": "C",
+      "trunk_forward_tilt_br": "C",
+      "trunk_lateral_tilt_br": "A",
+      "arm_slot_br": "C",
+      "hip_shoulder_sep_fp": "C",
+      "stride_length_fp": "C",
+      "lead_knee_extension_fp_br": "C"
+    },
+    "arm_side": {
+      "elbow_flexion_fp": "C",
+      "elbow_flexion_br": "C",
+      "lead_knee_flexion_fp": "C",
+      "lead_knee_flexion_br": "A",
+      "trunk_forward_tilt_br": "A",
+      "trunk_lateral_tilt_br": "C",
+      "arm_slot_br": "C",
+      "hip_shoulder_sep_fp": "C",
+      "stride_length_fp": "B",
+      "lead_knee_extension_fp_br": "C"
+    }
+  },
+  "runtime_s": 168.5
+}
